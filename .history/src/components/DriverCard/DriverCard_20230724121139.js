@@ -17,7 +17,7 @@ const DriverCard = ({driver, onSelect}) => {
             />
           </View>
           <Text style={Style.team}>{driver.Team}</Text>
-          <View style={Style.Image_container} >
+          <View>
             <Image style={Style.Image} source={{uri: driver.imageUrl}} />
           </View>
         </View>

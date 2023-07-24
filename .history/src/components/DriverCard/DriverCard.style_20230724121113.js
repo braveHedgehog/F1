@@ -46,7 +46,6 @@ export default StyleSheet.create({
     color: '#E8E8E8',
   },
   Image_container: {
-    marginTop: 10,
     alignItems: 'flex-end',
   },
   country_image: {
