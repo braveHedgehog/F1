@@ -1,0 +1,15 @@
+/* eslint-disable prettier/prettier */
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#e10600',
+      },
+      inner_container: {
+        flexDirection: 'row',
+      },
+      driver: {
+        flexDirection: 'row',
+      },
+});

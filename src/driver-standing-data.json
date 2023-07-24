@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "name": "Max Verstappen",
+        "team": "Red Bull Racing",
+        "points": "255 PTS"
+    },
+    {
+        "id": "2",
+        "name": "Sergio Perez",
+        "team": "Red Bull Racing",
+        "points": "156 PTS"
+    },
+    {
+        "id": "3",
+        "name": "Fernando Alonso",
+        "team": "Aston Martin",
+        "points": "137 PTS"
+    },
+    {
+        "id": "4",
+        "name": "Lewis Hamilton",
+        "team": "Mercedes",
+        "points": "121 PTS"
+    },
+    {
+        "id": "5",
+        "name": "Carlos Sainz",
+        "team": "Ferrari",
+        "points": "83 PTS"
+    },
+    {
+        "id": "6",
+        "name": "George Russel",
+        "team": "Mercedes",
+        "points": "82 PTS"
+    },
+    {
+        "id": "7",
+        "name": "Charles Leclerc",
+        "team": "Ferrari",
+        "points": "74 PTS"
+    },
+    {
+        "id": "8",
+        "name": "Lance Stroll",
+        "team": "Aston Martin",
+        "points": "44 PTS"
+    },
+    {
+        "id": "9",
+        "name": "Lando Norris",
+        "team": "Mclaren",
+        "points": "42 PTS"
+    },
+    {
+        "id": "10",
+        "name": "Esteban Ocon",
+        "team": "Alpine",
+        "points": "31 PTS"
+    }
+]

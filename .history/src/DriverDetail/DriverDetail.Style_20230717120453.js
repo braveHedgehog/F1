@@ -1,0 +1,36 @@
+/* eslint-disable prettier/prettier */
+import {StyleSheet, Dimensions} from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#e10600',
+    padding: 20
+  },
+  Image: {
+    resizeMode: 'stretch',
+    width: Dimensions.get('screen').width,
+    height: 400,
+  },
+  number: {
+    fontSize: 35,
+    color: '#E8E8E8',
+    marginTop: 20,
+    padding: 10,
+    alignItems: 'flex-start'
+  },
+  name: {
+    fontSize: 25,
+    color: '#E8E8E8',
+    padding: 10,
+  },
+  country_image: {
+    padding: 10,
+    width: 80,
+    height: 80,
+    resizeMode: 'contain',
+  },
+  number_container: {
+    flexDirection: 'row',
+  },
+});
