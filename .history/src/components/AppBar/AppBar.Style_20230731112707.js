@@ -22,10 +22,9 @@ export default StyleSheet.create({
     alignItems: 'flex-end',
   },
   Input: {
-    width: 100,
-    //alignItems: 'flex-end',
+    textAlign: 'right',
     fontSize: 18,
     marginLeft: 20,
-    marginTop: 5,
+    marginTop: -10,
   },
 });
