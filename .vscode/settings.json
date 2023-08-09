@@ -10,5 +10,6 @@
         "Sauber",
         "Scuderia",
         "Verstappen"
-    ]
+    ],
+    "java.configuration.updateBuildConfiguration": "disabled"
 }

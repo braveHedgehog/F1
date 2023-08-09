@@ -21,22 +21,21 @@ const Login = ({navigation}) => {
     try {
       if (formValues.email === '' || formValues.Password === '') {
         showMessage({
-          message: 'E-mail or Password is empty',
-          type: 'info',
-        });
-      } else {
-        setLoading(true);
-        await auth().signInWithEmailAndPassword(
-          formValues.email,
-          formValues.Password,
-        );
-        showMessage({
-          message: 'Congrats!!',
-          type: 'success',
-        });
-        navigation.navigate('Home');
-        setLoading(false);
+        message: 'E-mail or Password is empty',
+        type: 'info',
+      });
       }
+      setLoading(true);
+      await auth().signInWithEmailAndPassword(
+        formValues.email,
+        formValues.Password,
+      );
+      showMessage({
+        message: 'Congrats!!',
+        type: 'success',
+      });
+      navigation.navigate('Home');
+      setLoading(false);
     } catch (error) {
       console.log(error.code);
       showMessage({

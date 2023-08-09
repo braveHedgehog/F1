@@ -42,7 +42,6 @@ export default StyleSheet.create({
     fontWeight: 'bold',
   },
   content: {
-    flex: 1,
     textAlign: 'right',
     color: '#E8E8E8',
     fontSize: 17,

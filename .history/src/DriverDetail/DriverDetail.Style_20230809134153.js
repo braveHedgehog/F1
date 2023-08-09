@@ -40,6 +40,8 @@ export default StyleSheet.create({
     padding: 10,
     color: '#0C0C0C',
     fontWeight: 'bold',
+    flex: 1,
+   // textAlign: 'left',
   },
   content: {
     flex: 1,

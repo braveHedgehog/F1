@@ -13,7 +13,7 @@ const Input = ({placeholder, value, onType, isSecure}) => {
         onChangeText={onType}
         value={value}
         secureTextEntry={isSecure}
-        placeholderTextColor={'#191919'}
+        placeholderTextColor={{color: '#191919'}}
       />
     </View>
   );

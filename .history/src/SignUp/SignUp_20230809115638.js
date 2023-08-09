@@ -26,7 +26,7 @@ const SignUp = ({navigation}) => {
         formValues.name === '' ||
         formValues.username === '' ||
         formValues.email === '' ||
-        formValues.Password === ''
+        formValues.password === ''
       ) {
         showMessage({
           message: 'Form is empty',

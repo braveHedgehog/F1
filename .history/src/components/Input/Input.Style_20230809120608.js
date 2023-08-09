@@ -12,7 +12,6 @@ export default StyleSheet.create({
   },
   input: {
     fontSize: 15,
-    color: '#191919',
     fontStyle: 'italic',
     borderRadius: 10,
   },

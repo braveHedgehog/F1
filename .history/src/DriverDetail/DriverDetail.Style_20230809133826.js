@@ -32,7 +32,6 @@ export default StyleSheet.create({
     resizeMode: 'contain',
   },
   number_container: {
-    flex: 1,
     flexDirection: 'row',
   },
   title: {
@@ -42,8 +41,7 @@ export default StyleSheet.create({
     fontWeight: 'bold',
   },
   content: {
-    flex: 1,
-    textAlign: 'right',
+    textAlign: 'justify',
     color: '#E8E8E8',
     fontSize: 17,
     padding: 10,
